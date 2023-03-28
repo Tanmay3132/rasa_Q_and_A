@@ -106,7 +106,7 @@ nlu:
 - intent : bhk_questions 
   examples : |
     - how many bhks do you offer ?
-    - what are the prices of the bhks , you offer ? 
+    
 
 - intent : cities_question
   examples : |
@@ -116,18 +116,21 @@ nlu:
 - intent : bhk_prices
   examples : |
      - what are the prices ?
-     
+     - what are the prices of the bhks , you offer ? 
 
-- intent : 2bhk_cites 
+- intent : 2bhk_cites # not working (fix it )
   examples : |
     - In what cities do you offer 2 bhk flats ?
     - Give me the locations for 2 bhk flats 
 
 - intent : 2bhk_locations_mumbai
   examples: |
-    - give me the price range of 2bhk flats for different locations in mumbai
+    - give me the price range of 2bhk flats for different locations in ['mumbai'](location)
 
 - intent : 3bhk_cites 
   examples : |
     - In what cities do you offer 3 bhk flats ?
     - Give me the locations for 3 bhk flats 
+
+entities :
+  -location 
