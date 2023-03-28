@@ -63,3 +63,4 @@ session_config:
 
 entities:
   - document_name
+  - location

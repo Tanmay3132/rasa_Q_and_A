@@ -125,9 +125,13 @@ nlu:
 
 - intent : 2bhk_locations_mumbai
   examples: |
-    - give me the price range of 2bhk flats for different locations in mumbai
+    - give me the price range of 2bhk flats for different locations in [mumbai](location)
 
 - intent : 3bhk_cites 
   examples : |
     - In what cities do you offer 3 bhk flats ?
     - Give me the locations for 3 bhk flats 
+
+entities:
+  - document_name
+  - location
