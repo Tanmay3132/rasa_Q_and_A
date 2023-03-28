@@ -50,7 +50,7 @@ rules:
 - rule : Say '2bhk locations in mumbai '
   steps:
   - intent : 2bhk_locations_mumbai
-  - utter_action : utter_2bhk_locations_mumbai
+  - action : utter_2bhk_locations_mumbai
   
 - rule : Say '3bhk city offer'
   steps:
