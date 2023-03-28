@@ -95,3 +95,39 @@ nlu:
     - can you help me with document serach ? 
     - how can i find a document about 
     - search this in document
+
+- intent : about_questions
+  examples : |
+    - what do you offer ? 
+    - can you tell about you ?
+    - where does you offer this facility 
+    - what are your main focus on ? 
+
+- intent : bhk_questions 
+  examples : |
+    - how many bhks do you offer ?
+    - what are the prices of the bhks , you offer ? 
+
+- intent : cities_question
+  examples : |
+     - what cities you offer in ?
+     - can you specify the city you offer in ?
+
+- intent : bhk_prices
+  examples : |
+     - what are the prices ?
+     
+
+- intent : 2bhk_cites 
+  examples : |
+    - In what cities do you offer 2 bhk flats ?
+    - Give me the locations for 2 bhk flats 
+
+- intent : 2bhk_locations_mumbai
+  examples: |
+    - give me the price range of 2bhk flats for different locations in mumbai
+
+- intent : 3bhk_cites 
+  examples : |
+    - In what cities do you offer 3 bhk flats ?
+    - Give me the locations for 3 bhk flats 

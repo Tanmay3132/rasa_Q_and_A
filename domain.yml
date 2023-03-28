@@ -12,7 +12,7 @@ intents:
 
 responses:
   utter_greet:
-    - text: "Hey! How are you?"
+    - text: "Hey! how are you "
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -32,6 +32,30 @@ responses:
 
   utter_document:
     - text: "Sure, I can help you with that. What document are you looking for?"
+
+  # utter_about_company:
+  #   - text: "Hey! Welcome to our real Estate company"
+
+  utter_about_questions:
+    - text : "Our company is a leading real estate firm that specializes in buying, selling, and renting properties across India. We have a team of experienced and professional real estate agents who work tirelessly to provide our clients with the best possible service"
+
+  utter_bhk_questions:
+    - text : "We offer 2bhk and 3bhk flats in various parts of India"
+
+  utter_bhk_price : 
+    - text : "We offer 2bhk flats starting from 60 lakhs - 2 crores, 3 bhk flats starting from 1.5 crores - 5 crores"
+
+  utter_cites_offer :
+    - text : "We provide our services in various cities of india like, Mumbai, Delhi, Banglore, Chennai"
+  
+  utter_2bhk_offer :
+    - text : "We offer a range of 2bhk flats in different parts of India, like Mumbai, Nagpur, Banglore  " 
+
+  utter_2bhk_locations_mumbai :
+    - text : "Areas like Andheri, Goregaon, and Malad, the price ranges from Rs. 1.2 crore to Rs. 1.8 crore and areas like Thane and Navi Mumbai, the price ranges from Rs. 70 lakhs to Rs. 1.5 crore."
+
+  utter_3bhk_offer :
+    - text : "We also offer a range of 3bhk flats in different parts of India, like Mumbai, Nagpur, Banglore "
 
 session_config:
   session_expiration_time: 60

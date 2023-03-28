@@ -17,3 +17,44 @@ rules:
   - intent: document_serach
   - action: utter_document
 
+# - rule: Say 'about company '
+#   steps:
+#   - intent: about_company
+#   - action: about_questions
+  
+- rule : Say 'about you'
+  steps:
+  - intent : about_questions
+  - action : utter_about_questions
+
+- rule : Say 'bhks questions'
+  steps:
+  - intent : bhk_questions
+  - action : utter_bhk_questions
+  
+- rule : Say 'bhks prices'
+  steps:
+  - intent : bhk_prices
+  - action : utter_bhk_price
+
+- rule : Say 'cities offer'
+  steps:
+  - intent : cities_question
+  - action : utter_cites_offer
+
+- rule : Say '2bhk city offer'
+  steps:
+  - intent : 2bhk_cites
+  - action : utter_2bhk_offer
+
+- rule : Say '2bhk locations in mumbai '
+  steps:
+  - intent : 2bhk_locations_mumbai
+  - action : utter_2bhk_locations_mumbai
+  
+- rule : Say '3bhk city offer'
+  steps:
+  - intent : 3bhk_cites
+  - action : utter_3bhk_offer
+
+  
